@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package filereaderbytype;
+package FileParser;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -75,7 +75,7 @@ public class Parser
        String path= file.getPath();
        String [] getArray=fileChooser.getFileType();
        String type=getArray[1];
-        System.out.println("Tipi: "+type);
+        //System.out.println("Type: "+type);
        String fileName=getArray[0];
        String fileContent="";
        file=fileChooser.getFile();
