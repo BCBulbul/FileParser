@@ -125,7 +125,7 @@ public class Parser
                     fileContent+=div.text();
                   }
                   
-                  getParsedData.add(fileContent);
+                   getParsedData.add(fileContent);
                   
                 }  
                   
