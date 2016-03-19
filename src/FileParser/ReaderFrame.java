@@ -81,7 +81,8 @@ public class ReaderFrame extends javax.swing.JFrame {
     private void btn_show1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_show1ActionPerformed
         ArrayList<String> getData = null;
         Parser parser=new Parser();
-        try {
+        try 
+        {
             getData=parser.fileParser();
             for(int i=0;i<getData.size();i++)
         {

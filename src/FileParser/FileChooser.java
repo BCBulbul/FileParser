@@ -24,8 +24,8 @@ public class FileChooser
     
     public  FileChooser()
     {
-        createChooser();
-        
+       createChooser();
+         
     }
  
     

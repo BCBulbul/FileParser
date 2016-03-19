@@ -82,7 +82,7 @@ public class Parser
        getParsedData=new ArrayList<>();
        
        switch (type) 
-        {
+         {
             case "txt":
                 
               try
