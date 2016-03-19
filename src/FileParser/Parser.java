@@ -225,7 +225,7 @@ public class Parser
             default:
                 
                 JOptionPane.showMessageDialog(null, "This program can not parse your choice!","Program Error",JOptionPane.ERROR_MESSAGE);
-                System.exit(0);
+                 System.exit(0);
         }
        
          
